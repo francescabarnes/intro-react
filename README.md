@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Your first front-end framework: React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Repository: `intro-react`
+- Mode: `solo`
+- Type of Challenge: `learning`
+- Duration: `8 days`
+- Deployment: `Github pages` or `Netlify`
 
-## Available Scripts
+## Learning Objectives
 
-In the project directory, you can run:
+Let's look into a JavaScript framework!
+At the end of this 5-day challenge you will:
 
-### `npm start`
+- be able to create a new React application
+- be able to "think in React"
+- be able to use basic hooks for managing state and reactivity
+- be able to organize your app in components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Your mission
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This time the task is simple: you will build a small Todo application that lives in your browser, and saves todos even after restarting the browser.
 
-### `npm test`
+![](images/todos.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Useful resources
 
-### `npm run build`
+React introduces a few uncommon concepts that can be difficult to understand at first. Here is a list of useful resources you can refer to - before, during, and after this exercise.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Official Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It's well written and made available in many languages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Main concepts, starting with the famous "Hello world" example: https://reactjs.org/docs/hello-world.html
+- "Thinking in React": https://reactjs.org/docs/thinking-in-react.html
+- If you prefer to learn by doing, you can follow the introductory tutorial: https://reactjs.org/tutorial/tutorial.html
 
-### `npm run eject`
+Note: the official documentation is still based on "class components", even though the recommended way forward is "function components". You will understand better what that means during this exercise. Just know that, unfortunately, the official docs describe an old way of working. They will soon release the updated docs, but we don't know when.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### YouTube
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+There is a TON of React material on YouTube. Choose your own flavor, but make sure that you watch videos that were released in the last year or so.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+One suggestion, very relevant to this exercise: https://www.youtube.com/watch?v=hQAHSlTtcmY
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_Side note: a couple of years ago React went from using mainly "class" based components to mainly "functional" components. Any tutorial that focuses on functional components, and special functions called "hooks" is up to date. Don't waste time on class components, they are the old way._
 
-## Learn More
+#### Online Course
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Again, there are a TON of courses out there. The same rule applies: make sure they are recent, and they use functional components and hooks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A good, free, course: https://egghead.io/courses/the-beginner-s-guide-to-react
 
-### Code Splitting
+#### Blogs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sometimes you will find a good explanation for a specific feature or problem in blogs. These are two blogs that always deliver high-quality content:
 
-### Analyzing the Bundle Size
+- https://kentcdodds.com/blog/
+- https://www.robinwieruch.de/blog
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deliverables
 
-### Making a Progressive Web App
+1. Publish the source code on your GitHub repository
+2. Deploy the project  
+   _Tip if you choose Netlify: to deploy a React app you first run the command `npm run build`, and once the command finishes you will have your app ready in the `build` folder: just drag and drop this folder in Netlify and you are done. Easy!_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Time to spare?
 
-### Advanced Configuration
+Have you completed the exercise for the day and don't know what to do with the remaining hours?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- See if someone else needs help.
+- Refactor parts you aren't happy with.
+- Improve on your project so it's not only a learning repository, but also a show off project when interviewing:
+  - Add styling
+  - Improve responsiveness
+  - Check for little, smooth effects
+  - Think UX: what extra features can make your todo app better?
+- Rebuild from scratch without any tutorial to improve your understanding.
+- Have a live edit option for existing todo's (when you click on the text of a todo, the app allows you to edit it in place).
+- Make a version with another JS framework like VueJS or Svelte.
 
-### Deployment
+## Good luck!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ready? Start [here](0.The-Basics/README.md)!
