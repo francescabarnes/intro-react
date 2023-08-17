@@ -1,12 +1,11 @@
-import react from "react";
 import Checkbox from "./Checkbox";
 
 function Todo(props) {
   return (
-    <li className="todo stack-small">
+    <li className="todo">
       <div className="c-cb">
         <Checkbox />
-        <label className="todo-label" htmlFor="todo-0">
+        <label className="todo-label" htmlFor={props.id}>
           {props.name}
         </label>
       </div>
