@@ -1,11 +1,12 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import Todo from "./components/Todo";
 import Input from "./components/input";
 import Submit from "./components/Submit";
 
 function App(props) {
-  const taskList = props.tasks.map((task) => (
+  const [tasks, setTasks] = useState(props.tasks);
+  const taskList = tasks.map((task) => (
     <Todo
       id={task.id}
       name={task.name}
@@ -13,9 +14,10 @@ function App(props) {
       key={task.id}
     />
   ));
+
   return (
     <div className="todoapp stack-large">
-      <h1>TodoMatic</h1>
+      <h1>Your Tasks</h1>
       <form>
         <h2 className="label-wrapper">
           <label htmlFor="new-todo-input" className="label__lg">
@@ -25,6 +27,7 @@ function App(props) {
         <Input />
         <Submit />
       </form>
+
       <div className="filters btn-group stack-exception">
         <button type="button" className="btn toggle-btn" aria-pressed="true">
           <span className="visually-hidden">Show </span>
